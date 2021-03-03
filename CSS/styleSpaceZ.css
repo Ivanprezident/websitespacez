@@ -1,0 +1,392 @@
+/* Первая часть сайта */
+
+/*Первый блок*/
+
+.first_block {
+    display: flex;
+    margin: 0px;
+    background-color: #222;
+    flex-direction: column;
+}
+
+.border_1 {
+    display: flex;
+    min-width: 1150px;
+    width: auto;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.aspects {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 75px;
+    font-size: 20px;
+    font-family: "Verdana";
+
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.contactsmail:hover {
+    filter: brightness(75%);
+}
+
+.contactsphone:hover {
+    filter: brightness(75%);
+}
+
+
+.ma {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: Courier New;
+}
+.button2 h2 {
+    color: white;
+}
+
+
+.two_block {
+    display: flex;
+    height: 450px;
+    width: 440px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin-top: 85px;
+    margin-bottom: 70px;
+    max-width: 400px;
+    align-items: center;
+    align-items: flex-start;
+    padding: 5px;
+    color: white;
+    
+    
+}
+.moon {
+    font-size: 25px;
+    font-family: Courier New;
+}
+.infup {
+    font-family: Verdana;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.content_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a.button {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 60px;
+    width: 240px;
+    height: 51px;
+    background-color: #feca30;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left2px; 
+    font-family: Courier New;
+
+}
+
+.buttonhover:hover {
+    background-color: white;
+}
+
+h2 {
+    margin: 6px;
+}
+
+/* Второй блок */
+
+.advantages {
+    background-color: #131313;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: "Verdana";
+}
+
+.icon-1 {
+    margin: 60px
+}
+
+.icon-2 {
+    margin: 60px
+}
+
+.icon-3 {
+    margin: 60px
+}
+
+.icon-4 {
+    margin: 60px
+}
+
+/* Третий блок*/
+.main_content {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.main_content h2 {
+    font-family: "Courier New";
+}
+.main_content p {
+    font-family: "Verdana";
+}
+.main_content ul {
+    font-family: "Verdana";
+}
+
+
+.first_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.second_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.map {
+    margin: 50px;
+    width: auto;
+    height: 500;
+}
+
+.section-1 {
+    margin: 50px;
+}
+.section-2 {
+    margin: 50px
+}
+
+.section-3 {
+    margin: 50px;
+    margin-right: 330px;
+    
+
+
+}
+
+li {
+    color: orange;
+}
+
+span {
+    color: black;
+}
+
+.form {
+    background-color: #F5F5F5;
+    font-size: 21px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formmain {
+    flex-direction: column;
+    margin: 10px;
+}
+
+.button2 {
+    display: flex;
+    border-radius: 60px;
+    width: 240px;
+    height: 51px;
+    background-color: black;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+button:hover {
+    background-color: white;
+}
+
+.button2 p {
+    font-size: 20px;
+    color: white;
+}
+
+.form-texst {
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.form-texst h2 {
+    font-family: "Courier New";
+}
+.form-texst p {
+    font-family: "Verdana";
+}
+
+
+.aaab {
+    height: 40px;
+    width: 219.5px;
+    margin: 5px;
+
+}
+
+.ccc {
+    width: 460px;
+}
+
+.timetable {
+    background-color: #222;
+    height: 350px;
+    padding: 30px;
+}
+
+.timetable-main {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.color {
+    color: #feca30;
+}
+
+.left {
+    margin-right: 230px;
+    padding-right: 230px;
+    font-family: "Courier New";
+}
+.graphik {
+     font-family: "Verdana";
+}
+
+.tablerocket {
+    border-collapse: collapse;
+    color: white;
+    border-bottom: 1px solid grey;
+    width: auto;
+    margin-top: 20px;
+    padding-bottom: 200px;
+    font-family: "Verdana";
+}
+
+.tablerocket1 {
+    position: relative;
+
+}
+
+
+
+.tablerocket th {
+    background-color: #131313;
+    border-bottom: 1px solid grey;
+    padding-right: 100px;
+
+
+}
+
+.tablerocket td {
+    border-bottom: 1px solid grey;
+    padding-right: 100px;
+}
+
+
+/* Четвертый блок */
+.footer {
+    background-color: #131313;
+    color: white;
+    display: flex;
+    font-family: "Verdana";
+
+}
+
+table.tablecontacts {
+    border-spacing: 15px;
+    width: 700px;
+    margin-left: 300px;
+}
+
+.aaa {
+    margin: 30px;
+    margin-left: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grey {
+    color: grey;
+}
+.aaafoter {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+tr {
+    width: 1000px;
+    font-size: 20px;
+}
+
+.tablefooter td {
+    border-bottom: 2px solid grey;
+}
+
+.ggg a {
+    color: grey;
+    text-decoration: none;
+}
+.logopoz {
+    position: relative;
+    top: -10px;
+}
